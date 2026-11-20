@@ -18,12 +18,12 @@ The work includes early concepts, visual studies, collaborative proposal support
   Skateboarding background, advocacy history and design point of view.
 - Contact: https://olovadesigns.ca/contact.html
   Direct project contact: vneville@olovadesigns.ca.
-- Previous product purchases: https://olovadesigns.ca/products.html
-  A contact route for earlier product enquiries, not a current catalogue or checkout. Do not infer current prices, stock, shipping or sale terms.
+- Products: https://olovadesigns.ca/products.html
+  Remaining odd CIRKUS SPINE FE26 skate shoes handled by direct inquiry from British Columbia.
 
 ## Canonical notes
 - Canonical domain: https://olovadesigns.ca/
 - Sitemap: https://olovadesigns.ca/sitemap.xml
 - Robots: https://olovadesigns.ca/robots.txt
 - Trade compatibility URL: https://olovadesigns.ca/trade.html redirects to https://olovadesigns.ca/products.html and is not listed in the sitemap.
-- Existing product and collection compatibility paths lead to the previous-product enquiry page.
+- Existing product and collection compatibility paths lead to the Products page.

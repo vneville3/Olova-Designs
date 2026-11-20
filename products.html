@@ -13,51 +13,114 @@
     gtag('js', new Date());
     gtag('config', 'G-HWG991YCRQ');
   </script>
-  <title>Previous product purchases | Olova Designs</title>
-  <meta name="description" content="Contact Vaughan Smith-Neville about previous OLOVA product purchases." />
+  <title>odd CIRKUS SPINE FE26 Skate Shoes | Olova Designs</title>
+  <meta name="description" content="odd CIRKUS SPINE FE26 skate shoes: OLOVA’s last batch in Canada. C$69 per pair or two for C$110, plus applicable tax. Coquitlam, BC pickup by arrangement." />
   <link rel="canonical" href="https://olovadesigns.ca/products.html" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Olova Designs" />
-  <meta property="og:title" content="Previous product purchases | Olova Designs" />
-  <meta property="og:description" content="Contact Vaughan Smith-Neville about previous OLOVA product purchases." />
+  <meta property="og:title" content="odd CIRKUS SPINE FE26 Skate Shoes | Olova Designs" />
+  <meta property="og:description" content="odd CIRKUS SPINE FE26 skate shoes: OLOVA’s last batch in Canada. C$69 per pair or two for C$110, plus applicable tax. Coquitlam, BC pickup by arrangement." />
   <meta property="og:url" content="https://olovadesigns.ca/products.html" />
-  <meta property="og:image" content="https://olovadesigns.ca/assets/contact-vaughan-nosedrive-v01.jpg" />
+  <meta property="og:image" content="https://olovadesigns.ca/assets/products-spine-hero-v01.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Previous product purchases | Olova Designs" />
-  <meta name="twitter:description" content="Contact Vaughan Smith-Neville about previous OLOVA product purchases." />
-  <meta name="twitter:image" content="https://olovadesigns.ca/assets/contact-vaughan-nosedrive-v01.jpg" />
+  <meta name="twitter:title" content="odd CIRKUS SPINE FE26 Skate Shoes | Olova Designs" />
+  <meta name="twitter:description" content="odd CIRKUS SPINE FE26 skate shoes: OLOVA’s last batch in Canada. C$69 per pair or two for C$110, plus applicable tax. Coquitlam, BC pickup by arrangement." />
+  <meta name="twitter:image" content="https://olovadesigns.ca/assets/products-spine-hero-v01.jpg" />
   <link rel="stylesheet" href="assets/styles.css" />
   <link rel="stylesheet" href="assets/olova-designs.css" />
+  <!-- Count contact intent, not a sent email or completed sale. -->
+  <script>
+    document.addEventListener('click', function (event) {
+      var link = event.target.closest && event.target.closest('a[href^="mailto:vneville@olovadesigns.ca"]');
+      if (link && typeof gtag === 'function') {
+        gtag('event', 'shoe_enquiry_click', {
+          product_model: 'SPINE FE26',
+          contact_method: 'email',
+          source_page: 'products'
+        });
+      }
+    });
+  </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "ContactPage",
-    "@id": "https://olovadesigns.ca/products.html#contact",
-    "url": "https://olovadesigns.ca/products.html",
-    "name": "Previous product purchases",
-    "isPartOf": {
-      "@type": "WebSite",
-      "@id": "https://olovadesigns.ca/#website"
-    },
-    "about": {
-      "@type": "Organization",
-      "name": "OLOVA",
-      "url": "https://olovadesigns.ca/"
-    },
-    "mainEntity": {
-      "@type": "Organization",
-      "name": "OLOVA",
-      "email": "vneville@olovadesigns.ca",
-      "areaServed": {
-        "@type": "AdministrativeArea",
-        "name": "British Columbia"
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://olovadesigns.ca/products.html#webpage",
+        "url": "https://olovadesigns.ca/products.html",
+        "name": "odd CIRKUS SPINE FE26 Skate Shoes | Olova Designs",
+        "description": "OLOVA’s last batch in Canada. C$69 per pair or two for C$110, plus applicable tax. Coquitlam, BC pickup by arrangement.",
+        "mainEntity": {
+          "@id": "https://olovadesigns.ca/products.html#spine"
+        }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://olovadesigns.ca/products.html#spine",
+        "url": "https://olovadesigns.ca/products.html",
+        "name": "odd CIRKUS SPINE FE26 (Black/Grey) skate shoes",
+        "brand": {
+          "@type": "Brand",
+          "name": "odd CIRKUS"
+        },
+        "model": "SPINE",
+        "color": "Black/Grey",
+        "category": "Skate shoes",
+        "image": [
+          "https://olovadesigns.ca/assets/products-spine-hero-v01.jpg",
+          "https://olovadesigns.ca/assets/products-spine-side-detail-v01.jpg",
+          "https://olovadesigns.ca/assets/products-spine-lifestyle-v01.jpg"
+        ],
+        "description": "odd CIRKUS SPINE FE26 skate shoes with a black/grey upper and geometric-pattern detailing. OLOVA handles remaining Canadian stock by direct inquiry.",
+        "offers": {
+          "@type": "Offer",
+          "@id": "https://olovadesigns.ca/products.html#spine-offer",
+          "url": "https://olovadesigns.ca/products.html",
+          "availability": "https://schema.org/LimitedAvailability",
+          "seller": {
+            "@type": "Organization",
+            "name": "Olova Trading Limited",
+            "url": "https://olovadesigns.ca/"
+          },
+          "availableAtOrFrom": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Coquitlam",
+              "addressRegion": "BC",
+              "addressCountry": "CA"
+            }
+          },
+          "price": 69,
+          "priceCurrency": "CAD"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://olovadesigns.ca/products.html#breadcrumbs",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://olovadesigns.ca/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Products",
+            "item": "https://olovadesigns.ca/products.html"
+          }
+        ]
       }
-    },
-    "inLanguage": "en-CA"
+    ]
   }
   </script>
 </head>
-<body class="legacy-products-page olova-designs">
+<body class="products-page">
+  <div class="olova-designs">
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="topbar">
     <div class="wrap topbar-inner">
       <a class="brand" href="index.html" aria-label="Olova Designs home">
@@ -69,30 +132,110 @@
         <a href="design.html">Design</a>
         <a href="community.html">Community</a>
         <a href="stories.html">Stories</a>
+        <a class="active" aria-current="page" href="products.html">Products</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
-  <a class="skip-link" href="#main-content">Skip to content</a>
+  </div>
 <main id="main-content">
-    <section class="hero">
-      <div class="wrap shell">
-        <div class="hero-inner">
-          <div class="hero-text">
-            <div class="eyebrow-row"><div class="eyebrow">Previous product enquiries</div></div>
-            <h1 id="product-name">Previous product purchases.</h1>
-            <p class="lead" id="product-details-heading">For questions about an earlier OLOVA product purchase, contact Vaughan directly.</p>
-            <p id="product-sizes-heading">Older links may refer to SPINE shoe listings. This page provides a contact route for those enquiries.</p>
-            <div class="hero-actions" id="product-contact-heading">
-              <a class="button primary" href="mailto:vneville@olovadesigns.ca?subject=Previous%20OLOVA%20product%20purchase">vneville@olovadesigns.ca</a>
+  <section class="hero product-hero" aria-labelledby="product-name">
+    <div class="wrap shell">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="eyebrow-row">
+            <span class="eyebrow"><span class="eyebrow-dot"></span>odd CIRKUS × OIT</span>
+            <span class="eyebrow">Canadian stock · Coquitlam, BC</span>
+          </div>
+          <h1 id="product-name">SPINE FE26</h1>
+          <p class="lead">Board feel first. A suede and canvas upper, reinforcement in high-wear areas, and cushioned insoles. Designed in Taipei by odd CIRKUS.</p>
+          <div class="product-offer" aria-label="SPINE FE26 clearance pricing">
+            <p class="product-offer-kicker">OLOVA’s last batch in Canada</p>
+            <div class="product-offer-price-row">
+              <strong class="product-offer-price">C$69</strong>
+              <span class="product-offer-unit">per pair</span>
             </div>
-            <p>Please include the product and any order details you already have.</p>
+            <p class="product-offer-bundle">Two pairs for <strong>C$110</strong></p>
+            <p class="product-offer-fine">Plus applicable sales taxes. Coquitlam pickup by arrangement.</p>
+            <a class="button product-offer-cta" href="mailto:vneville@olovadesigns.ca?subject=SPINE%20FE26%20size%20enquiry&amp;body=Hi%20OLOVA%2C%0AI%27m%20interested%20in%20the%20SPINE%20FE26.%0AUS%20size%3A%20%0AQuantity%3A%20%0A%0AThanks%21">Ask for my size</a>
           </div>
         </div>
+        <aside class="hero-media product-hero-media">
+          <img src="assets/products-spine-hero-v01.jpg" alt="odd CIRKUS SPINE FE26 black and grey skate shoes showing the sole and graphic upper" fetchpriority="high" />
+          <div class="hero-chip-row">
+            <span class="chip">SPINE FE26</span>
+            <span class="chip light">Limited availability</span>
+          </div>
+        </aside>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
+
+  <section class="section product-sizes" aria-labelledby="product-sizes-heading">
+    <div class="wrap">
+      <div class="product-sizes-panel">
+        <div class="product-sizes-heading">
+          <h2 id="product-sizes-heading">Sizes remaining</h2>
+          <p>Send your US size and quantity. We'll confirm availability and arrange pickup.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section product-details" aria-labelledby="product-details-heading">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="section-kicker">Details</div>
+          <h2 class="section-title" id="product-details-heading">A closer look.</h2>
+        </div>
+        <div class="section-note">Suede + canvas. Reinforced wear zones. Cushioned insoles.</div>
+      </div>
+      <div class="media-grid">
+        <article class="media-card">
+          <div class="media-thumb">
+            <img src="assets/products-spine-side-detail-v01.jpg" alt="SPINE FE26 side profile with grey overlay and graphic heel panel" loading="lazy" />
+          </div>
+          <div class="media-copy">
+            <h3>Built for daily skating</h3>
+            <p>Suede and canvas up top, with reinforcement in the areas that see the most board wear.</p>
+          </div>
+        </article>
+        <article class="media-card">
+          <div class="media-thumb">
+            <img src="assets/products-spine-lifestyle-v01.jpg" alt="odd CIRKUS SPINE FE26 black and grey skate shoes worn on foot" loading="lazy" />
+          </div>
+          <div class="media-copy">
+            <h3>On foot</h3>
+            <p>Low-profile shape, a close-fitting ankle sleeve, and cushioning underfoot.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section product-last-call" aria-labelledby="product-contact-heading">
+    <div class="wrap">
+      <div class="contact-panel">
+        <div>
+          <div class="section-kicker">Local pickup · Coquitlam</div>
+          <h2 id="product-contact-heading">Want a pair?</h2>
+        </div>
+        <div class="inline-actions">
+          <a class="button primary" href="mailto:vneville@olovadesigns.ca?subject=SPINE%20FE26%20size%20enquiry&amp;body=Hi%20OLOVA%2C%0AI%27m%20interested%20in%20the%20SPINE%20FE26.%0AUS%20size%3A%20%0AQuantity%3A%20%0A%0AThanks%21">Email OLOVA</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" aria-labelledby="previous-purchases">
+    <div class="wrap">
+      <h2 id="previous-purchases">Previous product purchases.</h2>
+      <p>For questions about an earlier OLOVA product purchase, contact Vaughan directly.</p>
+      <a class="button primary" href="mailto:vneville@olovadesigns.ca?subject=Previous%20OLOVA%20product%20purchase">vneville@olovadesigns.ca</a>
+    </div>
+  </section>
+</main>
 
   <footer>
     <div class="wrap footer-line"><span>Olova Designs · Tri-Cities, British Columbia</span><span>Olova Trading Limited</span></div>
