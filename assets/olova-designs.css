@@ -1,0 +1,110 @@
+/* Olova Designs: styles for Home, Design, Contact and legacy product enquiries. */
+.olova-designs { background: #080808; color: #f4f4f4; }
+.olova-designs *, .olova-designs *::before, .olova-designs *::after { box-sizing: border-box; }
+.olova-designs .wrap, .olova-designs main .wrap {
+  width: min(1280px, calc(100% - 48px));
+}
+.olova-designs .topbar { position: static; background: #080808; }
+.olova-designs .topbar-inner { gap: 20px; flex-wrap: wrap; }
+.olova-designs .brand { min-width: 0; }
+.olova-designs .brand-title { font-size: 1rem; letter-spacing: .12em; }
+.olova-designs .brand-subtitle { font-size: .875rem; letter-spacing: .02em; text-transform: none; }
+.olova-designs .brand-mark { border: 0; border-radius: 0; background: transparent; }
+.olova-designs .nav { display: flex; gap: 4px; flex-wrap: wrap; }
+.olova-designs .nav a {
+  font-size: .875rem; letter-spacing: .02em; text-transform: none;
+  min-height: 44px; display: inline-flex; align-items: center; padding: 10px 12px;
+}
+.olova-designs .hero { padding-top: 44px; }
+.olova-designs .hero .shell, .olova-designs .card, .olova-designs .media-card,
+.olova-designs .split-panel, .olova-designs .contact-panel {
+  border: 0; border-radius: 0; background: transparent; box-shadow: none;
+}
+.olova-designs .hero-inner { padding: 0; gap: 32px; min-height: 0; grid-template-columns: minmax(0,1fr); }
+.olova-designs .hero-text { padding: 0; min-width: 0; }
+.olova-designs h1, .olova-designs .hero-text h1 {
+  font-size: clamp(2.5rem, 6vw, 5rem); line-height: 1.04; letter-spacing: -.045em;
+  max-width: 1040px; text-wrap: balance;
+}
+.olova-designs .lead, .olova-designs .hero-text .lead {
+  max-width: 760px; font-size: 1.125rem; line-height: 1.65;
+}
+.olova-designs p, .olova-designs .card p, .olova-designs .media-card p,
+.olova-designs .split-panel p, .olova-designs .contact-panel p,
+.olova-designs .detail-panel p, .olova-designs .list li {
+  font-size: 1rem; line-height: 1.7; color: #c8c8c8;
+}
+.olova-designs .eyebrow {
+  padding: 0; border: 0; border-radius: 0; background: transparent;
+  font-size: .875rem; letter-spacing: .02em; text-transform: none; color: #c8c8c8;
+}
+.olova-designs .eyebrow-dot { display: none; }
+.olova-designs .hero-media {
+  min-height: 0; aspect-ratio: 16 / 9; border: 0; border-radius: 0;
+}
+.olova-designs .hero-media img {
+  position: static; width: 100%; height: 100%; object-fit: cover;
+}
+.olova-designs .hero-media::after, .olova-designs .media-thumb::after { background: none; }
+.olova-designs .chip {
+  font-size: .875rem; letter-spacing: .02em; text-transform: none; border-radius: 2px;
+  background: rgba(0,0,0,.85); padding: 8px 12px;
+}
+.olova-designs .chip.light { background: rgba(0,0,0,.85); }
+.olova-designs .section, .olova-designs .home-selected-work { padding-top: 64px; }
+.olova-designs .section-head { padding-top: 20px; margin-bottom: 28px; align-items: start; }
+.olova-designs .section-kicker, .olova-designs .card-kicker {
+  font-size: .875rem; letter-spacing: .02em; text-transform: none; color: #bdbdbd;
+}
+.olova-designs .section-note { font-size: 1rem; line-height: 1.6; }
+.olova-designs .section-title, .olova-designs h2 { font-size: clamp(1.75rem, 3vw, 2.75rem); line-height: 1.15; }
+.olova-designs .card h3, .olova-designs .media-card h3, .olova-designs .split-panel h3 {
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem); line-height: 1.16;
+}
+.olova-designs .card, .olova-designs .split-panel { padding: 0; }
+.olova-designs .home-selected-work .card-grid { grid-template-columns: minmax(0,1fr); gap: 44px; }
+.olova-designs .home-selected-work .media-card {
+  display: grid; grid-template-columns: minmax(0,1.3fr) minmax(0,1fr); gap: 32px; align-items: center;
+}
+.olova-designs .media-copy { padding: 20px 0; min-width: 0; }
+.olova-designs .media-thumb { border: 0; }
+.olova-designs .design-scope p { max-width: 760px; }
+.olova-designs .button { font-size: .875rem; letter-spacing: .02em; text-transform: none; border-radius: 2px; min-height: 48px; }
+.olova-designs .text-link { font-size: .875rem; letter-spacing: .02em; text-transform: none; min-height: 44px; }
+.olova-designs .text-link::after { content: none; }
+.olova-designs a { overflow-wrap: anywhere; }
+.olova-designs a:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+.olova-designs .contact-panel { padding: 24px 0; }
+.olova-designs footer { padding-top: 56px; }
+.olova-designs .footer-line { font-size: .875rem; letter-spacing: .02em; text-transform: none; }
+.olova-designs .skip-link { position: absolute; left: 12px; top: 12px; padding: 12px; background: #fff; color: #080808; transform: translateY(-200%); z-index: 20; }
+.olova-designs .skip-link:focus { transform: none; }
+.olova-designs [id] { scroll-margin-top: 24px; }
+.olova-designs.contact-page .hero-inner { grid-template-columns: minmax(0,1fr) minmax(0,1fr); align-items: center; }
+.olova-designs.contact-page .hero-media.contact-hero-portrait { aspect-ratio: auto; min-height: 0; }
+.olova-designs.contact-page .hero-media img.contact-hero-action { height: auto; object-fit: contain; }
+@media (max-width: 800px) {
+  .olova-designs .wrap, .olova-designs main .wrap { width: calc(100% - 32px); }
+  .olova-designs .topbar-inner { align-items: start; flex-direction: column; }
+  .olova-designs .nav { width: 100%; justify-content: flex-start; }
+  .olova-designs .nav a { padding: 10px; }
+  .olova-designs .hero { padding-top: 24px; }
+  .olova-designs .hero-inner { gap: 24px; }
+  .olova-designs .hero-media { aspect-ratio: 4 / 3; }
+  .olova-designs .section, .olova-designs .home-selected-work { padding-top: 40px; }
+  .olova-designs .home-selected-work .media-card,
+  .olova-designs.contact-page .hero-inner, .olova-designs .split-grid,
+  .olova-designs .media-grid, .olova-designs .card-grid { grid-template-columns: minmax(0,1fr); }
+  .olova-designs .home-selected-work .media-card { gap: 0; }
+  .olova-designs .section-head { flex-direction: column; gap: 12px; }
+  .olova-designs .section-note { text-align: left; }
+  .olova-designs .button, .olova-designs a.button[href^="mailto:"] {
+    font-size: .875rem; letter-spacing: .02em; min-width: 0; width: 100%;
+  }
+  .olova-designs .hero-chip-row, .olova-designs .media-chip-row { left: 10px; right: 10px; bottom: 10px; gap: 6px; }
+  .olova-designs .chip { font-size: .875rem; }
+  .olova-designs .contact-panel { grid-template-columns: minmax(0,1fr); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .olova-designs * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}

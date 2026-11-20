@@ -1,0 +1,29 @@
+# Olova Designs
+
+Olova Designs presents Vaughan Smith-Neville's skatepark and public-space concepts, 3D visualization, and community-linked work in the Tri-Cities, British Columbia. The legal company name remains Olova Trading Limited.
+
+The work includes early concepts, visual studies, collaborative proposal support, and practical contributions to community projects. Do not imply licensed architecture or engineering, or treat a concept as a commissioned or built project.
+
+## Key pages
+- Home: https://olovadesigns.ca/
+- Design: https://olovadesigns.ca/design.html
+  Featured Port Moody and Ukraine concepts, visualization and design approach.
+- Projects: https://olovadesigns.ca/projects.html
+  Wider archive including Zambia, Botswana, Lincoln Avenue, Ukraine and Belong. Preserve the stated role and project status.
+- Community: https://olovadesigns.ca/community.html
+  Belong Youth Centre and practical community involvement.
+- Belong Centre: https://olovadesigns.ca/belong-centre.html
+  Existing dedicated Belong page.
+- Stories: https://olovadesigns.ca/stories.html
+  Skateboarding background, advocacy history and design point of view.
+- Contact: https://olovadesigns.ca/contact.html
+  Direct project contact: vneville@olovadesigns.ca.
+- Previous product purchases: https://olovadesigns.ca/products.html
+  A contact route for earlier product enquiries, not a current catalogue or checkout. Do not infer current prices, stock, shipping or sale terms.
+
+## Canonical notes
+- Canonical domain: https://olovadesigns.ca/
+- Sitemap: https://olovadesigns.ca/sitemap.xml
+- Robots: https://olovadesigns.ca/robots.txt
+- Trade compatibility URL: https://olovadesigns.ca/trade.html redirects to https://olovadesigns.ca/products.html and is not listed in the sitemap.
+- Existing product and collection compatibility paths lead to the previous-product enquiry page.
