@@ -115,3 +115,9 @@
 @media (max-width: 800px) {
   .design-page #featured-projects + #port-moody { padding-top: 16px; }
 }
+
+/* Round the remaining project and portrait media without changing page surfaces. */
+.olova-designs:is(.design-page, .contact-page) .hero-media,
+.olova-designs.design-page :is(.media-card, .media-thumb, .split-panel:has(> .media-thumb)) {
+  border-radius: 14px;
+}
