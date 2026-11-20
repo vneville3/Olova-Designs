@@ -48,7 +48,18 @@ video{display:block;max-width:100%}
 }
 .topbar-inner{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
 .brand{display:inline-flex;align-items:center;gap:14px;min-width:0}
-.brand-mark{width:52px;height:52px;border-radius:12px;padding:3px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.02)}
+/* Reserve a square for the transparent logo, including in a tight header. */
+.brand-mark{
+  --brand-mark-size:64px;
+  width:var(--brand-mark-size);
+  height:var(--brand-mark-size);
+  flex:0 0 var(--brand-mark-size);
+  padding:2px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,.08);
+  background:rgba(255,255,255,.02);
+}
+.brand-mark img{width:100%;height:100%;object-fit:contain}
 .brand-title{font-size:14px;font-weight:700;letter-spacing:.18em;text-transform:uppercase}
 .brand-subtitle{font-size:11px;color:var(--muted);letter-spacing:.12em;text-transform:uppercase}
 .nav{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
@@ -209,6 +220,7 @@ video.embedded{width:100%;aspect-ratio:16/9;border-top:1px solid var(--line);bac
   .wrap{width:min(var(--max), calc(100vw - 20px))}
   .topbar{position:static}
   .topbar-inner{padding:10px 0;align-items:flex-start;flex-direction:column;gap:10px}
+  .brand-mark{--brand-mark-size:60px}
   .nav{
     display:grid;
     grid-template-columns:repeat(3,minmax(0,1fr));
@@ -364,7 +376,7 @@ video.embedded{width:100%;aspect-ratio:16/9;border-top:1px solid var(--line);bac
     gap:10px;
   }
   .brand{gap:8px}
-  .brand-mark{width:36px;height:36px}
+  .brand-mark{--brand-mark-size:48px}
   .brand-subtitle{display:none}
   .nav{
     display:flex;
@@ -539,4 +551,18 @@ video.embedded{width:100%;aspect-ratio:16/9;border-top:1px solid var(--line);bac
   .products-page .product-size-list li{min-width:48px;min-height:40px}
   .products-page .product-sizes-heading p:not(.section-kicker){font-size:13px}
   .products-page .product-last-call{padding-bottom:10px}
+}
+
+/* Match the Designs outer rail on the Community page without restyling its cards. */
+body:has(> main > section#belong) .topbar > .wrap,
+body:has(> main > section#belong) main > section > .wrap,
+body:has(> main > section#belong) footer .wrap{
+  width:min(1280px,calc(100% - 48px));
+}
+@media (max-width:800px){
+  body:has(> main > section#belong) .topbar > .wrap,
+  body:has(> main > section#belong) main > section > .wrap,
+  body:has(> main > section#belong) footer .wrap{
+    width:calc(100% - 32px);
+  }
 }

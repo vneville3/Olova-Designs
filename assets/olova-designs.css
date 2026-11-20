@@ -108,3 +108,10 @@
 @media (prefers-reduced-motion: reduce) {
   .olova-designs * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
+
+/* Keep the Design overview heading visually attached to the first project. */
+.design-page #featured-projects .section-head { margin-bottom: 0; }
+.design-page #featured-projects + #port-moody { padding-top: 24px; }
+@media (max-width: 800px) {
+  .design-page #featured-projects + #port-moody { padding-top: 16px; }
+}
