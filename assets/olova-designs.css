@@ -121,3 +121,11 @@
 .olova-designs.design-page :is(.media-card, .media-thumb, .split-panel:has(> .media-thumb)) {
   border-radius: 14px;
 }
+
+.design-page .project-index :is(h2, p) a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .16em;
+}
+.design-page .project-index .split-panel { border-top: 1px solid var(--line); padding-top: 20px; }
+.design-page .slava-details { margin-top: 24px; }
